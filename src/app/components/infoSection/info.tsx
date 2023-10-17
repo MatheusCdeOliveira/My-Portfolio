@@ -1,4 +1,5 @@
 import { SectionTitle } from '../sectionTitle/sectionTitle'
+
 import './info.scss'
 
 export function Info(){

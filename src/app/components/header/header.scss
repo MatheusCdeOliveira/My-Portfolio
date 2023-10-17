@@ -39,12 +39,11 @@
       font-size: 30px;
       line-height: 45px;
       font-style: normal;
-      // text-align: left;
     }
 
     img {
       border-radius: 100%;
-      border: white solid 2px;
+      border: var(--border-header);
     }
   }
 }

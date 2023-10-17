@@ -8,7 +8,8 @@
    "header"
    "btns"
    "experience"
-   "info";
+   "info"
+   "projects";
 }
 
 
@@ -28,7 +29,7 @@
     text-align: center;
     font-weight: 600;
     line-height: 30px;
-    color: var(--text-primary);
+    color: white;
     padding: 12px;
     text-transform: uppercase;
     text-decoration: none;
@@ -46,7 +47,7 @@
 @media (min-width: 1000px) {
   .container {
     padding: 70px 60px;
-    height: 100vh;
+    height: auto;
     grid-template-rows: fit-content(100%);
     grid-template-columns: 60% 30%;
     align-items: center;
@@ -55,7 +56,7 @@
     grid-template-areas:
     "header info"
     "experience btns"
-    "empty-2 empty";
+    "projects empty";
   }
 
   @media (min-width: 1290px) {

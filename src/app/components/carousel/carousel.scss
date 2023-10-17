@@ -1,0 +1,13 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 50px;
+  max-width: 590px;
+
+  grid-area: projects;
+
+  .carousel-border {
+    border: 2px solid rgba(43, 41, 41, 0.794);
+  }
+}
