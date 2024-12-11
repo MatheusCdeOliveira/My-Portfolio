@@ -4,10 +4,58 @@
   gap: 24px;
   margin-bottom: 50px;
   max-width: 590px;
+  overflow-x: hidden; // Evita barras de rolagem horizontais
+  overflow-y: hidden; // Evita barras de rolagem verticais
 
   grid-area: projects;
 
-  .carousel-border {
-    border: 2px solid rgba(43, 41, 41, 0.794);
+   .swiper {
+    width: 100%;
+    max-width: 100%; 
+    height: auto; 
+
+  }
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-direction: column;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; // Ajusta o redimensionamento das imagens
+      border-radius: 20px;
+    }
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #000; // Define a cor das setas
+    &:hover {
+      color: #007bff; // Cor ao passar o mouse
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .projects {
+    max-width: 100%;
+    padding: 0 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .swiper-slide {
+    padding: 10px; 
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+  
+    width: 30px;
+    height: 30px; 
   }
 }

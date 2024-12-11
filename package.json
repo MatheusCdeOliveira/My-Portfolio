@@ -15,7 +15,8 @@
     "react-dom": "^18",
     "react-responsive-carousel": "^3.2.23",
     "sass": "^1.68.0",
-    "styled-components": "^6.0.8"
+    "styled-components": "^6.0.8",
+    "swiper": "^11.1.15"
   },
   "devDependencies": {
     "@types/node": "^20",

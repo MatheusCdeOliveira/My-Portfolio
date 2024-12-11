@@ -1,3 +1,4 @@
+import React from 'react';
 import Image from 'next/image';
 import { SectionTitle } from '../sectionTitle/sectionTitle';
 import './experience.scss';

@@ -1,3 +1,4 @@
+import React from 'react';
 import { SectionTitle } from '../sectionTitle/sectionTitle'
 
 import './info.scss'
@@ -15,6 +16,9 @@ export function Info(){
           <div className="education-info">
             <span>🎓</span>
             <span>Trybe programming school</span>
+            <br/>
+            <span>🎓</span>
+            <span>PUC Minas - ADS</span>
           </div>
         </div>
   )
