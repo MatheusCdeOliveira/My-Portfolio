@@ -1,5 +1,10 @@
 export const projectList = [
   {
+    url: 'https://pmv-ads-2024-2-e1-proj-web-t5-curriculoexpress-seven.vercel.app/',
+    name: 'Currículo Express',
+    image: '/curriculoexpress.png'
+  },
+  {
     url: 'https://project-trybetunes-theta.vercel.app/',
     name: 'Trybetunes',
     image: '/tuness.png'

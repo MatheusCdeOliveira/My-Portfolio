@@ -1,8 +1,33 @@
 .toggle-mode {
-  
+
   div {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    cursor: pointer;
+  }
+
+  #moon-icon {
+    transition: all 0.3s ease;
+    fill: #4a4a4a;
+    filter: brightness(0.5);
+
+  }
+  #moon-icon:hover {
+    transform: scale(1.8) rotate(15deg);  /* Expansão e rotação */
+    fill: #2a2df4; 
+    filter: brightness(1.5) drop-shadow(0 0 15px #2a2df4);  /* Lua iluminada ao passar o mouse */
+  }
+
+  #sun-icon {
+    transition: all 0.3s ease;
+    fill: #fdd835;
+    filter: brightness(0.8);
+
+  }
+  #sun-icon:hover {
+    transform: scale(1.8) rotate(15deg);
+    fill: #ffeb3b; 
+    filter: brightness(1.5) drop-shadow(0 0 15px rgb(220, 204, 22));  /* Lua iluminada ao passar o mouse */
   }
 }
